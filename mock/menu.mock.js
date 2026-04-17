@@ -577,7 +577,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:user:query",
+                  perm: "sys:user:list",
                   children: [],
                 },
                 {
@@ -698,7 +698,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:role:add",
+                  perm: "sys:role:create",
                   children: [],
                 },
                 {
@@ -713,7 +713,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:role:edit",
+                  perm: "sys:role:update",
                   children: [],
                 },
                 {
@@ -759,7 +759,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:menu:add",
+                  perm: "sys:menu:create",
                   children: [],
                 },
                 {
@@ -774,7 +774,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:menu:edit",
+                  perm: "sys:menu:update",
                   children: [],
                 },
                 {
@@ -820,7 +820,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:dept:add",
+                  perm: "sys:dept:create",
                   children: [],
                 },
                 {
@@ -835,7 +835,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:dept:edit",
+                  perm: "sys:dept:update",
                   children: [],
                 },
                 {
@@ -881,7 +881,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:dict:add",
+                  perm: "sys:dict:create",
                   children: [],
                 },
                 {
@@ -896,7 +896,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:dict_type:edit",
+                  perm: "sys:dict_type:update",
                   children: [],
                 },
                 {
@@ -942,7 +942,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:dict-item:add",
+                  perm: "sys:dict-item:create",
                   children: [],
                 },
                 {
@@ -957,7 +957,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:dict-item:edit",
+                  perm: "sys:dict-item:update",
                   children: [],
                 },
                 {
@@ -1018,7 +1018,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:config:query",
+                  perm: "sys:config:list",
                   children: [],
                 },
                 {
@@ -1033,7 +1033,7 @@ export default defineMock([
                   visible: 1,
                   icon: "",
                   redirect: null,
-                  perm: "sys:config:add",
+                  perm: "sys:config:create",
                   children: [],
                 },
                 {
