@@ -1,8 +1,8 @@
 import axios from "axios";
 import qs from "qs";
 import { ApiCodeEnum } from "@/enums/api";
-import { useUserStoreHook } from "@/store/modules/user";
-import { usePermissionStoreHook } from "@/store/modules/permission";
+import { useUserStoreHook } from "@/stores/user";
+import { usePermissionStoreHook } from "@/stores/permission";
 import { AuthStorage, redirectToLogin } from "@/utils/auth";
 import { ElMessage } from "element-plus";
 

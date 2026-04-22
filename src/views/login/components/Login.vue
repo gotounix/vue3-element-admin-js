@@ -140,8 +140,8 @@
 <script setup>
 import AuthAPI from "@/api/auth";
 import router from "@/router";
-import { useUserStore } from "@/store";
-import { useTenantStoreHook } from "@/store/modules/tenant";
+import { useUserStore } from "@/stores";
+import { useTenantStoreHook } from "@/stores/tenant";
 import TenantSwitcher from "@/components/TenantSwitcher/index.vue";
 import { AuthStorage } from "@/utils/auth";
 import { ApiCodeEnum } from "@/enums";

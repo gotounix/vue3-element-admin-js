@@ -72,7 +72,7 @@ import UserAPI from "@/api/system/user";
 import DeptAPI from "@/api/system/dept";
 import RoleAPI from "@/api/system/role";
 import { DeviceEnum } from "@/enums/settings";
-import { useAppStore } from "@/store";
+import { useAppStore } from "@/stores";
 import usePage from "@/components/CURD/usePage";
 
 defineOptions({

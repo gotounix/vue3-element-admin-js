@@ -1,7 +1,7 @@
-import { store } from "@/store";
-import { usePermissionStoreHook } from "@/store/modules/permission";
-import { useDictStoreHook } from "@/store/modules/dict";
-import { useTagsViewStore } from "@/store";
+import { store } from "@/stores";
+import { usePermissionStoreHook } from "@/stores/permission";
+import { useDictStoreHook } from "@/stores/dict";
+import { useTagsViewStore } from "@/stores";
 import { cleanupSseServices } from "@/composables";
 
 import AuthAPI from "@/api/auth";

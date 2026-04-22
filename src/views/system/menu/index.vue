@@ -355,7 +355,7 @@
 </template>
 
 <script setup>
-import { useAppStore } from "@/store/modules/app";
+import { useAppStore } from "@/stores/app";
 import { DeviceEnum } from "@/enums/settings";
 import MenuAPI from "@/api/system/menu";
 import { MenuScopeEnum, MenuTypeEnum } from "@/enums/business";

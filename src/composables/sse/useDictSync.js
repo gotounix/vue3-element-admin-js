@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import { useDictStoreHook } from "@/store/modules/dict";
+import { useDictStoreHook } from "@/stores/dict";
 import { useSse } from "./useSse";
 
 let singletonInstance = null;

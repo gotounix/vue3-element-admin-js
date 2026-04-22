@@ -383,7 +383,7 @@ import { dayjs } from "element-plus";
 import { ref, watch, computed, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import LogAPI from "@/api/system/log";
-import { useUserStore } from "@/store/modules/user";
+import { useUserStore } from "@/stores/user";
 import { formatGrowthRate } from "@/utils";
 import { useTransition, useDateFormat } from "@vueuse/core";
 import { Clock, Menu } from "@element-plus/icons-vue";

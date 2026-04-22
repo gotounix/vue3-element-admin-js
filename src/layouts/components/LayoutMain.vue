@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { useSettingsStore, useTagsViewStore } from "@/store";
+import { useSettingsStore, useTagsViewStore } from "@/stores";
 import variables from "@/styles/variables.module.scss";
 import Error404 from "@/views/error/404.vue";
 

@@ -1,5 +1,5 @@
 import { DeviceEnum } from "@/enums/settings";
-import { useAppStore } from "@/store";
+import { useAppStore } from "@/stores";
 
 const modalConfig = {
   permPrefix: "sys:user",

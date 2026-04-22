@@ -260,7 +260,7 @@ import DeptAPI from "@/api/system/dept";
 import RoleAPI from "@/api/system/role";
 
 // ==================== 5. Store ====================
-import { useUserStore, useAppStore } from "@/store";
+import { useUserStore, useAppStore } from "@/stores";
 
 // ==================== 6. Enums ====================
 import { DeviceEnum, DialogMode, CommonStatus } from "@/enums";

@@ -24,7 +24,7 @@
 
 <script setup>
 import selectConfig from "./config/select";
-import { useDictStore } from "@/store";
+import { useDictStore } from "@/stores";
 const dictStore = useDictStore();
 
 const selectedUser = ref();

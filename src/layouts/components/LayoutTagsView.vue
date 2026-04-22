@@ -71,7 +71,7 @@
 import { useRoute, useRouter } from "vue-router";
 import { resolve } from "path-browserify";
 import { translateRouteTitle } from "@/lang/utils";
-import { usePermissionStore, useTagsViewStore } from "@/store";
+import { usePermissionStore, useTagsViewStore } from "@/stores";
 
 const router = useRouter();
 const route = useRoute();

@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import { useAppStore, useSettingsStore } from "@/store";
+import { useAppStore, useSettingsStore } from "@/stores";
 import { appConfig } from "@/settings";
 import { ThemeMode, ComponentSize } from "@/enums";
 

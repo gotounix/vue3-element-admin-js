@@ -302,7 +302,7 @@
 <script setup>
 import UserAPI from "@/api/system/user";
 import FileAPI from "@/api/file";
-import { useUserStore } from "@/store";
+import { useUserStore } from "@/stores";
 import { redirectToLogin } from "@/utils/auth";
 import {
   Camera,

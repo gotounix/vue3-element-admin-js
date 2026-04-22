@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import { useSettingsStore } from "@/store";
+import { useSettingsStore } from "@/stores";
 import { ThemeMode, SidebarColor, LayoutMode } from "@/enums/settings";
 
 defineProps({

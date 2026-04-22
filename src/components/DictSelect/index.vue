@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import { useDictStore } from "@/store";
+import { useDictStore } from "@/stores";
 
 const dictStore = useDictStore();
 

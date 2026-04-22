@@ -139,7 +139,7 @@
 </template>
 
 <script setup>
-import { useDictStoreHook } from "@/store/modules/dict";
+import { useDictStoreHook } from "@/stores/dict";
 import { useDateFormat } from "@vueuse/core";
 import DictAPI from "@/api/system/dict";
 import { useDictSync } from "@/composables";

@@ -1,11 +1,11 @@
 import { constantRoutes } from "@/router";
-import { store } from "@/store";
+import { store } from "@/stores";
 import router from "@/router";
-import { useUserStoreHook } from "@/store/modules/user";
+import { useUserStoreHook } from "@/stores/user";
 
 import MenuAPI from "@/api/system/menu";
-const modules = import.meta.glob("../../views/**/**.vue");
-const Layout = () => import("../../layouts/index.vue");
+const modules = import.meta.glob("../views/**/**.vue");
+const Layout = () => import("../layouts/index.vue");
 
 function resolveViewComponent(componentPath) {
   const normalized = componentPath
@@ -13,9 +13,9 @@ function resolveViewComponent(componentPath) {
     .replace(/^\/+/, "")
     .replace(/\.vue$/i, "");
   return (
-    modules[`../../views/${normalized}.vue`] ||
-    modules[`../../views/${normalized}/index.vue`] ||
-    modules[`../../views/error/404.vue`]
+    modules[`../views/${normalized}.vue`] ||
+    modules[`../views/${normalized}/index.vue`] ||
+    modules[`../views/error/404.vue`]
   );
 }
 

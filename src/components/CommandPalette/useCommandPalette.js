@@ -3,7 +3,7 @@
  */
 import { ref, onMounted, onBeforeUnmount, toRaw } from "vue";
 import router from "@/router";
-import { usePermissionStore } from "@/store";
+import { usePermissionStore } from "@/stores";
 import { isExternal } from "@/utils";
 
 const STORAGE_KEY = "menu_search_history";

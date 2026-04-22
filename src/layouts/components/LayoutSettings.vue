@@ -142,7 +142,7 @@ import { DocumentCopy, RefreshLeft, Check, Moon, Sunny } from "@element-plus/ico
 import { useI18n } from "vue-i18n";
 import { markRaw, ref, computed } from "vue";
 import { useRoute } from "vue-router";
-import { useSettingsStore, usePermissionStore, useAppStore } from "@/store";
+import { useSettingsStore, usePermissionStore, useAppStore } from "@/stores";
 import { LayoutMode, SidebarColor, ThemeMode } from "@/enums/settings";
 
 const { t } = useI18n();

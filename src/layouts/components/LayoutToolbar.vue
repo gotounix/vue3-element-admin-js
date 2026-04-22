@@ -76,8 +76,8 @@ import SizeSelect from "@/components/SizeSelect/index.vue";
 import LangSelect from "@/components/LangSelect/index.vue";
 import NoticeDropdown from "@/components/NoticeDropdown/index.vue";
 import TenantSwitcher from "@/components/TenantSwitcher/index.vue";
-import { useAppStore, useSettingsStore, useUserStore } from "@/store";
-import { useTenantStoreHook } from "@/store/modules/tenant";
+import { useAppStore, useSettingsStore, useUserStore } from "@/stores";
+import { useTenantStoreHook } from "@/stores/tenant";
 import { defaults } from "@/settings";
 import { DeviceEnum, LayoutMode, SidebarColor, ThemeMode } from "@/enums/settings";
 

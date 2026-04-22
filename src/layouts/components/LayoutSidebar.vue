@@ -28,7 +28,7 @@
 import { useRoute } from "vue-router";
 import path from "path-browserify";
 import { SidebarColor } from "@/enums/settings";
-import { useSettingsStore, useAppStore } from "@/store";
+import { useSettingsStore, useAppStore } from "@/stores";
 import { isExternal } from "@/utils/index";
 import LayoutSidebarItem from "./LayoutSidebarItem.vue";
 import variables from "@/styles/variables.module.scss";

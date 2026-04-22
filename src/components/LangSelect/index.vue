@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import { useAppStore } from "@/store/modules/app";
+import { useAppStore } from "@/stores/app";
 import { LanguageEnum } from "@/enums/settings";
 
 defineProps({

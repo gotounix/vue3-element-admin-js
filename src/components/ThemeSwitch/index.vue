@@ -21,7 +21,7 @@
   </el-dropdown>
 </template>
 <script setup>
-import { useSettingsStore } from "@/store";
+import { useSettingsStore } from "@/stores";
 import { Moon, Sunny } from "@element-plus/icons-vue";
 
 const { t } = useI18n();
