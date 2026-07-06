@@ -1,5 +1,5 @@
 <template>
-  <div class="layout" :class="layoutClass">
+  <div class="layout-root" :class="layoutClass">
     <!-- 移动端遮罩层（混布局 MixLayout 中传 false 关闭） -->
     <div
       v-if="showOverlay && isMobile && isSidebarOpen"
